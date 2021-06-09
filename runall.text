@@ -1,0 +1,13 @@
+make
+mono drac.exe tests/001_hello.drac
+mono drac.exe tests/002_binary.drac
+mono drac.exe tests/003_palindrome.drac
+mono drac.exe tests/004_factorial.drac
+mono drac.exe tests/005_arrays.drac
+mono drac.exe tests/006_next_day.drac
+mono drac.exe tests/007_literals.drac
+mono drac.exe tests/008_vars.drac
+mono drac.exe tests/009_operators.drac
+mono drac.exe tests/010_breaks.drac
+
+python \execute.py .\tests\001_hello.wat
